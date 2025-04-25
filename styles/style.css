@@ -1,0 +1,114 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #1f1f1f, #2e2e2e);
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #111;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation Styles */
+nav a {
+  color: #0af;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Featured Section Styles */
+.featured {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1d1d1d;
+}
+
+.featured-items {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.featured-items .item img {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.featured-items .item:hover img {
+  transform: scale(1.05);
+}
+
+/* Categories Section Styles */
+.categories {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.category-card {
+  background: #292929;
+  padding: 25px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  background: #444;
+  transform: translateY(-5px);
+}
+
+/* Product Card Styles */
+.product-card {
+  background: #222;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 15px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #0af;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
