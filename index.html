@@ -1,106 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Vin Deals - Home</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles/style.css" />
-<script src="scripts/cart.js" defer></script>
-<style>
-  .featured h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    color: #ff3e3e;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-  }
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IShop</title>
 
-  .featured-items {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .product-card {
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    text-align: center;
-    padding: 10px;
-    background-color: #fdfdfd;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
-  .product-card img {
-    width: 100%;
-    border-radius: 8px;
-  }
-
-  .product-card h3 {
-    margin: 10px 0 5px;
-  }
-
-  .product-card .price {
-    color: #27ae60;
-    font-weight: bold;
-  }
-
-  .product-card button {
-    margin-top: 8px;
-    padding: 8px 12px;
-    background-color: #27ae60;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .product-card button:hover {
-    background-color: #219150;
-  }
-</style>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
 </head>
+
 <body>
-<header>
-<h1>Vin Deals</h1>
-<nav>
-<a href="cart.html">Cart</a>
-</nav>
-</header>
 
-<section class="featured">
-<h2>🔥Hot Deals🔥</h2>
-<div class="featured-items">
-  <div class="product-card">
-    <img src="images/cologne1.png" alt="Maison Francis Kurkdjian">
-    <h3>Maison Francis Kurkdjian</h3>
-    <p class="price">$24.99</p>
-    <button onclick="addToCart('Maison Francis Kurkdjian', '$24.99')">Add to Cart</button>
+<div class="banner_bg_main">
+
+  <!-- header top -->
+  <div class="container">
+    <div class="header_section_top">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="custom_menu">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="product-card">
-    <img src="images/electronics1.png" alt="Iphone 16">
-    <h3>Iphone 16</h3>
-    <p class="price">$149.99</p>
-    <button onclick="addToCart('Iphone 16', '$149.99')">Add to Cart</button>
+
+  <!-- logo -->
+  <div class="logo_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- header -->
+  <div class="header_section">
+    <div class="container">
+      <div class="containt_main">
+
+        <!-- REMOVED TOGGLE & SIDENAV -->
+
+        <div class="main"></div>
+
+        <div class="header_box">
+          <div class="login_menu">
+            <ul>
+              <li>
+                <a href="#">
+                </a>
+              </li>
+              <!-- ACCOUNT REMOVED -->
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- banner -->
+  <div class="banner_section layout_padding">
+    <div class="container">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="banner_taital">
+                Get Start <br>with your id Today! $160
+              </h1>
+
+              <!-- ORDER NOW FIX -->
+              <div class="buynow_bt">
+                <a href="order.html">Order Now</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- fashion section -->
+<div class="fashion_section">
+  <div class="container">
+    <h1 class="fashion_taital">Fast Shipping</h1>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-4">
+        <div class="box_main">
+          <h4 class="shirt_text">High Quality</h4>
+          <div class="tshirt_img">
+            <img src="images/tshirt-img.png">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-4">
+        <div class="box_main">
+          <h4 class="shirt_text">High-Quality Custom IDs — Shipped to All 50 States.</h4>
+          <h4 class="shirt_text">Premium Custom ID Cards with Nationwide Shipping.</h4>
+          <h4 class="shirt_text">Trusted Custom IDs, Delivered Across the USA.</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-4">
+        <div class="box_main">
+          <h4 class="shirt_text">Key Security Features on Our ID's</h4>
+          <h4 class="shirt_text">✅ UV Watermarks</h4>
+          <h4 class="shirt_text">✅ Holograms</h4>
+          <h4 class="shirt_text">✅ Microprint</h4>
+          <h4 class="shirt_text">✅ Ghost Image</h4>
+          <h4 class="shirt_text">✅ Raised Lettering/Texturing</h4>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
-</section>
 
-<section class="categories">
-<h2>Shop by Category</h2>
-<div class="category-grid">
-<a href="categories/cologne.html" class="category-card">Cologne</a>
-<a href="categories/watches.html" class="category-card">Watches</a>
-<a href="categories/clothes.html" class="category-card">Clothes</a>
-<a href="categories/electronics.html" class="category-card">Electronics</a>
-<a href="categories/shoes.html" class="category-card">Shoes</a>
-</div>
-</section>
-
-<footer>
-<p>&copy; 2025 Vin Deals</p>
-</footer>
 </body>
 </html>
